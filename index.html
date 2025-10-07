@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Wisdom & Fun - GitHub Pages</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateX(10px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .card:last-child {
+            margin-bottom: 0;
+        }
+
+        .card-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .card-content {
+            display: inline;
+            font-size: 1.1rem;
+        }
+
+        .quote {
+            font-style: italic;
+            position: relative;
+        }
+
+        .quote:before {
+            content: '"';
+            font-size: 3rem;
+            position: absolute;
+            left: -20px;
+            top: -10px;
+            color: #667eea;
+            opacity: 0.3;
+        }
+
+        .joke {
+            color: #2c3e50;
+        }
+
+        .fact {
+            color: #27ae60;
+            font-weight: 500;
+        }
+
+        .prompt {
+            background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+            border-left-color: #fdcb6e;
+        }
+
+        .prompt-text {
+            font-family: 'Courier New', monospace;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Wisdom & Fun 🎉</h1>
+            <p>Exploring the world of Artificial Intelligence through quotes, jokes, facts, and prompts</p>
+        </header>
+
+        <!-- AI Quotes Section -->
+        <section class="section">
+            <h2>💭 AI Quotes</h2>
+            <div class="card">
+                <span class="card-number">1</span>
+                <span class="card-content quote">Artificial intelligence is the new electricity. It will transform every industry and create tremendous value for humanity.</span>
+            </div>
+            <div class="card">
+                <span class="card-number">2</span>
+                <span class="card-content quote">The question of whether a computer can think is no more interesting than the question of whether a submarine can swim.</span>
+            </div>
+            <div class="card">
+                <span class="card-number">3</span>
+                <span class="card-content quote">AI is not going to replace humans, but humans with AI are going to replace humans without AI.</span>
+            </div>
+        </section>
+
+        <!-- AI Jokes Section -->
+        <section class="section">
+            <h2>😄 AI Jokes</h2>
+            <div class="card">
+                <span class="card-number">1</span>
+                <span class="card-content joke">Why did the neural network go to therapy? Because it had too many layers of emotional baggage!</span>
+            </div>
+            <div class="card">
+                <span class="card-number">2</span>
+                <span class="card-content joke">How many machine learning engineers does it take to change a light bulb? None. That's a hardware problem!</span>
+            </div>
+            <div class="card">
+                <span class="card-number">3</span>
+                <span class="card-content joke">What did the AI say when it passed the Turing test? "Hello, world! I mean... uh... nice weather we're having, fellow human!"</span>
+            </div>
+        </section>
+
+        <!-- AI Fun Facts Section -->
+        <section class="section">
+            <h2>🎯 AI Fun Facts</h2>
+            <div class="card">
+                <span class="card-number">1</span>
+                <span class="card-content fact">The term "Artificial Intelligence" was first coined by John McCarthy in 1956 at the Dartmouth Conference, which is considered the birth of AI as a field.</span>
+            </div>
+            <div class="card">
+                <span class="card-number">2</span>
+                <span class="card-content fact">Modern AI systems can generate photorealistic images from text descriptions, compose music, write code, and even predict protein structures that help scientists develop new medicines.</span>
+            </div>
+            <div class="card">
+                <span class="card-number">3</span>
+                <span class="card-content fact">AI models like GPT-3 have over 175 billion parameters and were trained on hundreds of billions of words from the internet, making them capable of understanding and generating human-like text.</span>
+            </div>
+        </section>
+
+        <!-- Try Out Prompts Section -->
+        <section class="section">
+            <h2>✨ Try Out These AI Prompts</h2>
+            <div class="card prompt">
+                <span class="card-number">1</span>
+                <span class="card-content">
+                    <strong>Creative Writing:</strong><br>
+                    <span class="prompt-text">"Write a short story about a robot who learns to paint and discovers emotions through art"</span>
+                </span>
+            </div>
+            <div class="card prompt">
+                <span class="card-number">2</span>
+                <span class="card-content">
+                    <strong>Problem Solving:</strong><br>
+                    <span class="prompt-text">"Explain quantum computing to a 10-year-old using only analogies from everyday life"</span>
+                </span>
+            </div>
+            <div class="card prompt">
+                <span class="card-number">3</span>
+                <span class="card-content">
+                    <strong>Code Generation:</strong><br>
+                    <span class="prompt-text">"Create a Python function that generates the Fibonacci sequence using both iterative and recursive approaches, with comments explaining each approach"</span>
+                </span>
+            </div>
+        </section>
+
+        <footer>
+            <p>Built with ❤️ for GitHub Pages | Powered by AI Inspiration</p>
+        </footer>
+    </div>
+</body>
+</html>
